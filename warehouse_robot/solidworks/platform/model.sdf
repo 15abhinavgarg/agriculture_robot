@@ -1,0 +1,36 @@
+<sdf version='1.7'>
+  <model name='platform'>
+    <link name='platform_link'>
+      <inertial>
+        <pose>0 0 -0.279008 0 -0 0</pose>
+        <mass>2620</mass>
+        <inertia>
+          <ixx>1107.16</ixx>
+          <ixy>3.31494e-14</ixy>
+          <ixz>5.69847e-15</ixz>
+          <iyy>1107.16</iyy>
+          <iyz>5.61692e-16</iyz>
+          <izz>2085.47</izz>
+        </inertia>
+      </inertial>
+      <collision name='platform_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://platform/meshes/platform_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='platform_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://platform/meshes/platform_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

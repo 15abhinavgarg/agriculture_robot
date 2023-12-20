@@ -1,0 +1,36 @@
+<sdf version='1.7'>
+  <model name='small_package'>
+    <link name='small_package_link'>
+      <inertial>
+        <pose>-0 -0 0.125 0 -0 0</pose>
+        <mass>15.625</mass>
+        <inertia>
+          <ixx>0.16276</ixx>
+          <ixy>-1.58113e-17</ixy>
+          <ixz>-9.03502e-19</ixz>
+          <iyy>0.16276</iyy>
+          <iyz>-1.807e-18</iyz>
+          <izz>0.16276</izz>
+        </inertia>
+      </inertial>
+      <collision name='small_package_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://small_package/meshes/small_package_link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='small_package_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://small_package/meshes/small_package_link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
