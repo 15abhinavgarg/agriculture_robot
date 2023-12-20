@@ -1,8 +1,7 @@
 # agriculture_robot
 Fruit pick and place robot
 
-# This package spawns a UR10 robot into a gazebo world and plots a circle trajectory
-
+# This package spawns a UR10 robot into a virtual agriculture field and picks up apples from the trees
 ## Instructions to run the package
 
 ### Step 1
