@@ -9,7 +9,7 @@ Fruit pick and place robot
 >sudo apt install ros-galactic-ros2-control ros-galactic-ros2-controllers ros-galactic-gazebo-ros2-control
 >sudo apt-get install ros-galactic-controller-manager
 
-## Step 2
+### Step 2
 Extract the contents of models.zip 
 run the following command for each folder inside the zip folder
 > cp -r your_folder_name/ ~/.gazebo/models
