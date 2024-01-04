@@ -12,14 +12,13 @@ Fruit pick and place robot
 >sudo apt-get install ros-galactic-controller-manager
 
 ### Step 2
-Extract the contents of models.zip 
-
-run the following command for each folder inside the zip folder
+Extract the contents of models.zip and run the following command for each folder inside the zip folder
 > cp -r your_folder_name/ ~/.gazebo/models
 
 ### Step 3
 >cd \<path to workspace root directory\>
 >colcon build
+
 Next time you can do the following
 >colcon build --packages-select agriculture_robot
 
@@ -37,7 +36,7 @@ open a new terminal window source ros2, source workspace
 You will have to modify the path to the "live_data.csv" file before building the package in the agriculture_robot/src/pick_and_place.py file 
 
 ### Live Joint Update
-After running the launch file and the ros2 node, and the robot has finished moving along the pre programmed trajectory, you can give it live joint angles by modifying the live_data.csv fine located in the /src folder. Another way to update this file is via the FK_test_script.py file located in the same directory. 
+After running the launch file and the ros2 node, and the robot has finished moving along the pre-programmed trajectory, you can give it live joint angles by modifying the live_data.csv fine located in the /src folder. Another way to update this file is via the FK_test_script.py file located in the same directory. 
 
 
 
